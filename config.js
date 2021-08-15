@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteUrl: 'https://asmatticgatsbyblog.gatsbyjs.io',
+  siteTitle: 'Matt Oldfield',
+  siteDescription: 'software developer',
+  author: 'Matt Oldifeld',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || 'https://asmatticgatsbyblog.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
@@ -15,13 +15,13 @@ module.exports = {
     tag: 'tags',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    github: 'https://github.com/asmattic',
+    facebook: 'https://www.facebook.com/matthew.oldfield1',
+    twitter: 'https://twitter.com/MattOldfield2',
+    instagram: 'https://www.instagram.com/oldfield_matt/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/9010b695-aa47-494d-95a8-f86e030c3649',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     javascript: {
